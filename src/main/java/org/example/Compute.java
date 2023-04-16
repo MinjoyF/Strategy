@@ -7,9 +7,12 @@ public class Compute {
     public Compute( double a){
         this.a= a;
     }
+
+    public Compute(){}
+
     @Override
     public String toString() {
-        return "############";
+        return "sum:"+ sum();
     }
 
     public double sum(){
